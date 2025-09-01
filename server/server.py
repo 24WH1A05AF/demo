@@ -3,7 +3,7 @@ Language Translator Application
 
 This Python script provides a simple GUI for translating text between languages using an API.
 It demonstrates Python programming, Tkinter GUI development, and API integration.
-
+ 
 Features:
 - Input text in one language and translate to another
 - Select source and target languages
@@ -17,7 +17,7 @@ Date: August 30, 2025
 import tkinter as tk
 from tkinter import ttk, messagebox
 import requests
-
+#hello command
 API_URL = "https://libretranslate.de/translate"  # Public translation API
 
 def translate_text():
